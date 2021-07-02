@@ -8,6 +8,12 @@
     },
     "url": "https://k.kakaocdn.net/dn/cEqior/btqCGQ8rVbX/KU5Kj1RmtQEmrpSyk256d0/MopInstaller.exe?attach=1&knm=tfile.exe",
     "hash": "530FE467FC46A26EF24892FB8253A82DB166F3DCAA5FC426449E2F4BD41BBE2E",
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir\\Mop"
+        ]
+    },
     "bin": "Mop.exe",
     "shortcuts": [
         [
