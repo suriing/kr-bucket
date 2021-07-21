@@ -7,14 +7,12 @@
     },
     "url": "https://blog.kakaocdn.net/dn/NJy9P/btq2hC5hjGp/OS44xHKcIW9ZssyjP9ts5K/HoaxEliminator5.04.zip?attach=1&knm=tfile.zip",
     "hash": "832D0A80223316AD79EE6A20AD8BDBFF0FCD8BB81DE813A9D36DEB32B6393F95",
-    "installer": {
-        "args": [
-            "-p\"teus.me\""
-        ]
-    },
     "architecture": {
         "64bit": {
-            "extract_dir": "x64",
+            "installer": {
+                "script": "Expand-7zipArchive -Switches -p\"teus.me\" \"$dir\\x64\" \"$dir\""
+            },
+            //"extract_dir": "x64",
             "bin": "Hoax Eliminator.exe",
             "shortcuts": [
                 [
@@ -24,7 +22,10 @@
             ]
         },
         "32bit": {
-            "extract_dir": "x86",
+            "installer": {
+                "script": "Expand-7zipArchive -Switches -p\"teus.me\" \"$dir\\x86\" \"$dir\""
+            },
+            //"extract_dir": "x86",
             "bin": "Hoax Eliminator.exe",
             "shortcuts": [
                 [
