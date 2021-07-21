@@ -1,0 +1,39 @@
+{
+    "version": "5.04",
+    "description": "Hoax Eliminator. Eliminate bad programs.",
+    "homepage": "https://teus.me",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "https://blog.kakaocdn.net/dn/NJy9P/btq2hC5hjGp/OS44xHKcIW9ZssyjP9ts5K/HoaxEliminator5.04.zip?attach=1&knm=tfile.zip",
+    "hash": "832D0A80223316AD79EE6A20AD8BDBFF0FCD8BB81DE813A9D36DEB32B6393F95",
+    /*
+    "extract_dir": "",
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir\\Mop"
+        ]
+    },
+    */
+    "architecture": {
+        "64bit": {
+            "bin": "x64\\Hoax Eliminator.exe",
+            "shortcuts": [
+                [
+                    "Hoax Eliminator.exe",
+                    "Hoax\\Eliminator"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "x86\\Hoax Eliminator.exe",
+            "shortcuts": [
+                [
+                    "Hoax Eliminator.exe",
+                    "Hoax\\Eliminator"
+                ]
+            ]
+        }
+    }
+}
