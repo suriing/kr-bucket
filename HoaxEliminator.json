@@ -7,10 +7,14 @@
     },
     "url": "https://blog.kakaocdn.net/dn/NJy9P/btq2hC5hjGp/OS44xHKcIW9ZssyjP9ts5K/HoaxEliminator5.04.zip?attach=1&knm=tfile.zip",
     "hash": "832D0A80223316AD79EE6A20AD8BDBFF0FCD8BB81DE813A9D36DEB32B6393F95",
+    "pre_install": [
+        "Expand-7zipArchive -Switches -p\"teus.me\" \"$dir\" \"$dir\\tmp\" -Removal"
+    ],
     "architecture": {
         "64bit": {
             "installer": {
-                "script": "Expand-7zipArchive -Switches -p\"teus.me\" \"$dir\\x64\" \"$dir\""
+                //"script": "Expand-7zipArchive -Switches -p\"teus.me\" \"$dir\\x64\" \"$dir\""
+                "script": "Move-Item \"$dir\\tmp\\x64\" \"$dir\""
             },
             //"extract_dir": "x64",
             "bin": "Hoax Eliminator.exe",
@@ -23,7 +27,8 @@
         },
         "32bit": {
             "installer": {
-                "script": "Expand-7zipArchive -Switches -p\"teus.me\" \"$dir\\x86\" \"$dir\""
+                //"script": "Expand-7zipArchive -Switches -p\"teus.me\" \"$dir\\x86\" \"$dir\""
+                "script": "Move-Item \"$dir\\tmp\\x86\" \"$dir\""
             },
             //"extract_dir": "x86",
             "bin": "Hoax Eliminator.exe",
@@ -34,5 +39,8 @@
                 ]
             ]
         }
-    }
+    },
+    "post_install": [
+        "Remove-Item \"$dir\\tmp\" -Recurse -Force"
+    ]
 }
