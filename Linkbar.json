@@ -1,0 +1,31 @@
+{
+    "version": "1.6.9",
+    "description": "Linkbar is a free source code desktop toolbar. Running in the MS Windows Vista+ environment, its use is governed by MIT License.",
+    "homepage": "https://github.com/ATGH15102AFMLD/Linkbar",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/ATGH15102AFMLD/Linkbar/blob/master/LICENSE"
+    },
+    "url": "https://github.com/ATGH15102AFMLD/Linkbar/releases/download/v1.6.9/Linkbar_1_6_9.zip",
+    "hash": "907E4D757A0D51CB164DA26489497193B4514B2D9B2B3324306DEF7B971B3A7F",
+    "architecture": {
+        "64bit": {
+            "bin": "Linkbar64.exe",
+            "shortcuts": [
+                [
+                    "Linkbar64.exe",
+                    "Linkbar"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "Linkbar.exe",
+            "shortcuts": [
+                [
+                    "Linkbar.exe",
+                    "Linkbar"
+                ]
+            ]
+        }
+    }
+}
