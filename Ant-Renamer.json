@@ -1,0 +1,18 @@
+{
+    "version": "2.12.0",
+    "description": "Ant Renamer is a free (really free, i.e. the source code is available) program that makes easier the renaming of lots of files and folders by using specified settings. It supports Unicode names.",
+    "homepage": "https://antp.be/software/renamer",
+    "license": {
+        "identifier": "GPL",
+        "url": "http://www.gnu.org/licenses/gpl.txt"
+    },
+    "url": "http://update.antp.be/renamer/antrenamer2.zip",
+    "hash": "1FFDA970C81FE83C9A481BAE1F9F7C39FDDD91E46BCC48841E8172E729248086",
+    "bin": "Renamer.exe",
+    "shortcuts": [
+        [
+            "Renamer.exe",
+            "Ant Renamer"
+        ]
+    ]
+}
