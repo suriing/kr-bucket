@@ -1,0 +1,19 @@
+{
+    "version": "0.8.0",
+    "description": "another unit converter make sense to anyone else",
+    "homepage": "http://convertall.bellz.org",
+    "license": {
+        "identifier": "GPL-2",
+        "url": "https://github.com/doug-101/ConvertAll/blob/master/doc/LICENSE"
+    },
+    "url": "https://github.com/doug-101/ConvertAll/releases/download/v0.8.0/convertall-0.8.0-install-user.exe",
+    "hash": "F80C637C3C6FEA9031B860825EC1A2B65EDDE5DCB74569F099E6BC63F0F95A1B",
+    "innosetup": true,
+    "bin": "convertall.exe",
+    "shortcuts": [
+        [
+            "convertall.exe",
+            "ConvertAll"
+        ]
+    ]
+}
