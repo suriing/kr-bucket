@@ -1,0 +1,18 @@
+{
+    "version": "0.99.7822",
+    "description": "Tiny, powerful, free mathematical program with WYSIWYG editor and complete units of measurements support. It provides numerous computing features and rich user interface translated into about 40 different languages. Application also contains integrated mathematical reference book.",
+    "homepage": "https://en.smath.com/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://en.smath.com/view/SMathStudio/license"
+    },
+    "url": "https://smath.com/file/ewBDg/SMathStudioDesktop.0_99_7822.Setup.msi",
+    "hash": "E45BCC82EDFB5B224178E8695C674DFDD363903F9D1765071404790E934915CD",
+    "bin": "SMathStudio_Desktop.exe",
+    "shortcuts": [
+        [
+            "SMathStudio_Desktop.exe",
+            "SMathStudio"
+        ]
+    ]
+}
