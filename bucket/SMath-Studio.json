@@ -14,5 +14,9 @@
             "SMathStudio_Desktop.exe",
             "SMathStudio"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://en.smath.com/view/SMathStudio/summary",
+        "regex": "Download: version <strong itemprop=\"softwareVersion\">([\\d.]+)</strong> - Stable"
+    }
 }

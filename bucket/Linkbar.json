@@ -27,5 +27,12 @@
                 ]
             ]
         }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ATGH15102AFMLD/Linkbar/releases/download/v$version/Linkbar_$version.replace('.','_').zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
 }

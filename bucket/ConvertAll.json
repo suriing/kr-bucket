@@ -15,5 +15,14 @@
             "convertall.exe",
             "ConvertAll"
         ]
-    ]
+    ],
+    "checkver": {
+        "github": "https://github.com/doug-101/ConvertAll"
+    },
+    "autoupdate": {
+        "url": "https://github.com/doug-101/ConvertAll/releases/download/v$version/convertall-$version-install-user.exe",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
 }
