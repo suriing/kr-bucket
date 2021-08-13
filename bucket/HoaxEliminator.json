@@ -1,6 +1,6 @@
 {
     "version": "6.01",
-    "description": "Hoax Eliminator. Eliminate bad programs. ※Type 'teus.me' Extracting process※",
+    "description": "Hoax Eliminator. Eliminate bad programs. ※Type 'teus.me' during Extracting process※",
     "homepage": "https://teus.me/",
     "license": {
         "identifier": "Freeware",
@@ -11,16 +11,12 @@
     "architecture": {
         "64bit": {
             "installer": {
-                "Script": [
-                    "Move-Item $dir\\x64\\* $dir"
-                ]
+                "Script": "Move-Item $dir\\x64\\* $dir"
             }
         },
         "32bit": {
             "installer": {
-                "Script": [
-                    "Move-Item $dir\\x86\\* $dir"
-                ]
+                "Script": "Move-Item $dir\\x86\\* $dir"
             }
         }
     },
