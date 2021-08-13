@@ -1,0 +1,42 @@
+{
+    "version": "6.01",
+    "description": "Hoax Eliminator. Eliminate bad programs. ※Type 'teus.me' Extracting process※",
+    "homepage": "https://teus.me/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://teus.me/"
+    },
+    "url": "https://blog.kakaocdn.net/dn/bk2CZb/btrbpQAxY1z/zIhRkO5K3cVhZafOepKqbK/HoaxEliminator6.01.zip?attach=1&knm=tfile.zip",
+    "hash": "7951123E5B526AADA571FF1EC1504AC6BAE83D1B18F74CA2E0C01DFDC9F962B2",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "Script": [
+                    "Move-Item $dir\\x64\\* $dir"
+                ]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "Script": [
+                    "Move-Item $dir\\x86\\* $dir"
+                ]
+            }
+        }
+    },
+    "post_install": [
+        "Remove-Item $dir\\*.zip_ -Force",
+        "Remove-Item $dir\\x?? -Force -Recurse"
+    ],
+    "bin": "Hoax Eliminator.exe",
+    "shortcuts": [
+        [
+            "Hoax Eliminator.exe",
+            "Hoax Eliminator"
+        ]
+    ],
+    "checkver": {
+        "url": "https://teus.me/category/IT/구라제거기",
+        "regex": "구라제거기\\[키보드 보안 프로그램 삭제\\] ([\\d.]+)"
+    }
+}
