@@ -14,5 +14,9 @@
             "Renamer.exe",
             "Ant Renamer"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "http://www.antp.be/software/renamer/download",
+        "regex": "Version ([\\d.]+)"
+    }
 }
