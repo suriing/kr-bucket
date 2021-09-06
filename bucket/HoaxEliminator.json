@@ -1,13 +1,13 @@
 {
-    "version": "6.01",
+    "version": "6.04",
     "description": "Hoax Eliminator. Eliminate bad programs. ※Type 'teus.me' during Extracting process※",
     "homepage": "https://teus.me/",
     "license": {
         "identifier": "Freeware",
         "url": "https://teus.me/"
     },
-    "url": "https://blog.kakaocdn.net/dn/bk2CZb/btrbpQAxY1z/zIhRkO5K3cVhZafOepKqbK/HoaxEliminator6.01.zip?attach=1&knm=tfile.zip",
-    "hash": "7951123E5B526AADA571FF1EC1504AC6BAE83D1B18F74CA2E0C01DFDC9F962B2",
+    "url": "https://blog.kakaocdn.net/dn/oAofm/btrd9kElPAm/4SUDBbc71Hs1FDszdZ1vK0/HoaxEliminator6.04.zip?attach=1&knm=tfile.zip",
+    "hash": "EE8CB11E9819C77E7CB5942DA398F1DE7B9BB455469EB391F27999D3E20222B4",
     "architecture": {
         "64bit": {
             "installer": {
