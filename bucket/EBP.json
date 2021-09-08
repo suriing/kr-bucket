@@ -32,6 +32,9 @@
         "3361352E6235BDB6B977301570BD629B13CFFA292673B179C4F60083CE1E74D1",
         "141D9C53E170662EF44AF6AD40F1869397400C2AE623E6EF7BE2F09169525E8F"
     ],
+    "post_install": [
+        "Remove-Item \"$dir\\*.z0*\""
+    ],
     "bin": "ebp_x64.exe",
     "shortcuts": [
         [
