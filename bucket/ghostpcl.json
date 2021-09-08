@@ -1,0 +1,51 @@
+{
+    "version": "9.54.0",
+    "description": "PCL5/PCL XL (PXL) interpreter/renderer",
+    "homepage": "https://www.ghostscript.com",
+    "license": {
+        "identifier": "AGPL-3.0-or-later|Freeware",
+        "url": "https://www.ghostscript.com/license.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9540/ghostpcl-9.54.0-win64.zip",
+            "hash": "sha512:A1B2C763874A0A26B1E206A045EE85CF4912645F15E24D23CC09BE90EB8EBC44FC4F8BF842EC8528ADC3A19FD2B7E786376C5717655338BE37DD93BC9C886ABA",
+            "bin": [
+                "ghostpcl-9.54.0-win64/gpcl6win64.exe",
+                [
+                    "ghostpcl-9.54.0-win64/gpcl6win64.exe",
+                    "gpcl"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9540/ghostpcl-9.54.0-win32.zip",
+            "hash": "sha512:47DBE09C769FD7B0C71AAA48293B96BDDF326C29B28457101CFD27E8350796E403DA8E8FE287F09E3C5168A8D98244E30C6136683CC37B366BA3473E9C7D11AC",
+            "bin": [
+                "ghostpcl-9.54.0-win32/gpcl6win64win32.exe",
+                [
+                    "ghostpcl-9.54.0-win32/gpcl6win64win32.exe",
+                    "gpcl"
+                ]
+            ]
+        }
+    },
+    "extract_to": "",
+    "checkver": {
+        "github": "https://github.com/ArtifexSoftware/ghostpdl-downloads/",
+        "regex": "Ghostscript/GhostPDL ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs$cleanVersion/ghostpcl-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs$cleanVersion/ghostpcl-$version-win32.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA512SUMS"
+        }
+    }
+}
