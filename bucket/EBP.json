@@ -1,0 +1,46 @@
+{
+    "version": "2.68",
+    "description": "Virtual printer for everybody",
+    "homepage": "https://modu-print.tistory.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://modu-print.tistory.com/94?category=833313"
+    },
+    "suggest": {
+        "ghostscript/pcl": [
+            "main/ghostscript",
+            "kr-bucket/ghostpcl"
+        ]
+    },
+    "url": [
+        "https://blog.kakaocdn.net/dn/IPvCM/btreoEpvB1o/s8kz3GCazkrqmu7eHrDeQK/ebp_x64.zip?attach=1&knm=tfile.zip",
+        "https://blog.kakaocdn.net/dn/QYabA/btrejV6Iz56/TvG821kxsnYMBP1EhKI1B0/ebp_x64.z01?attach=1&knm=tfile.z01",
+        "https://blog.kakaocdn.net/dn/sj0OP/btrek8dkMly/zFsOXqQrMFoBETphz0t4H0/ebp_x64.z02?attach=1&knm=tfile.z02",
+        "https://blog.kakaocdn.net/dn/zRW5D/btrejVezqO3/RNpMewF7OUb5Z1WkQKCigk/ebp_x64.z03?attach=1&knm=tfile.z03",
+        "https://blog.kakaocdn.net/dn/429Aw/btrehGaOB9O/fo7lEyKJXGrIjWUshuQA90/ebp_x64.z04?attach=1&knm=tfile.z04",
+        "https://blog.kakaocdn.net/dn/pyS4Y/btreryWtlFG/ZADDhivRnSY22UzZp0gT3k/ebp_x64.z05?attach=1&knm=tfile.z05",
+        "https://blog.kakaocdn.net/dn/bU8SmS/btreo4IfpsQ/ohSzJ7h1acQPTEER2ecbpK/ebp_x64.z06?attach=1&knm=tfile.z06",
+        "https://blog.kakaocdn.net/dn/pbNB2/btreqILNa2m/Df0inqwFyRkBjhpTtCJsO1/ebp_x64.z07?attach=1&knm=tfile.z07"
+    ],
+    "hash": [
+        "A5A6A1C4C8484DE70A5FAE3A5153F37533F345181F9400EC3C7DFA293A79ACB5",
+        "32EDAE7870577971B1C7BE0A52E522576E57415E93B7C8944B0C5A11EC99BB7B",
+        "D134F991DC300B3318CD3E1E7A0946E1FA664A628146BBFFA26CE452114881CC",
+        "C679988F247CCD30899068AFFE489F8F7E600FB340BF8E6DAC27D69EC930A188",
+        "3A02F79619FAD78AA41E53498B4554457FA61EF650A6BDF185AB6059798ABAE9",
+        "CB40AAC6590480648356BE9BA711E11E1ABDDA3258759393C027BA45CDA8764F",
+        "3361352E6235BDB6B977301570BD629B13CFFA292673B179C4F60083CE1E74D1",
+        "141D9C53E170662EF44AF6AD40F1869397400C2AE623E6EF7BE2F09169525E8F"
+    ],
+    "bin": "ebp_x64.exe",
+    "shortcuts": [
+        [
+            "ebp_x64.exe",
+            "EBP"
+        ]
+    ],
+    "checkver": {
+        "url": "https://modu-print.tistory.com/category/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C/%EB%AA%A8%EB%91%90%EC%9D%98%20%ED%94%84%EB%A6%B0%ED%84%B0",
+        "regex": "모두의 프린터 v([\\d.]+) 다운로드"
+    }
+}
