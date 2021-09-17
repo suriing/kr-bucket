@@ -1,5 +1,5 @@
 {
-    "version": "2.70",
+    "version": "2.74",
     "description": "Virtual printer for everybody",
     "homepage": "https://modu-print.tistory.com",
     "license": {
@@ -15,24 +15,30 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://blog.kakaocdn.net/dn/c2ziXd/btretb2rhOe/vreA5UszxSLpqO1QZRB651/ebp_x64.zip?attach=1&knm=tfile.zip",
-                "https://blog.kakaocdn.net/dn/zv7nv/btrevGOjQAC/wBvSB3jaHhFWR5BF0wSm5K/ebp_x64.z01?attach=1&knm=tfile.z01",
-                "https://blog.kakaocdn.net/dn/dPoovv/btreydRVhBz/dTxNokUegduXpanxbqXXR0/ebp_x64.z02?attach=1&knm=tfile.z02",
-                "https://blog.kakaocdn.net/dn/cMJUyG/btretcttp9h/WrWJwYBf9pU4unK26vScf0/ebp_x64.z03?attach=1&knm=tfile.z03",
-                "https://blog.kakaocdn.net/dn/bHytRk/btreu9DbWeM/fNF9Qhz7THHSbrvrvtddZ0/ebp_x64.z04?attach=1&knm=tfile.z04",
-                "https://blog.kakaocdn.net/dn/ckcG0p/btretbnMcSR/InB2ZPEmnvweUpIlTEa9y1/ebp_x64.z05?attach=1&knm=tfile.z05",
-                "https://blog.kakaocdn.net/dn/YrGKr/btretc1gg7e/0JT1dXEhdh1P8yKJiKEXq1/ebp_x64.z06?attach=1&knm=tfile.z06",
-                "https://blog.kakaocdn.net/dn/r421w/btrerzCtdfF/Rw2JOVaOREAuQLfRvdczP0/ebp_x64.z07?attach=1&knm=tfile.z07"
+                "https://blog.kakaocdn.net/dn/bMBNRh/btrfarp6wnp/BISGGbksIcXo4ozXOFG571/ebp_x64.zip?attach=1&knm=tfile.zip",
+                "https://blog.kakaocdn.net/dn/cufctm/btre7t2MBsW/IHYduVkW0qwMsHDNdvgOw0/ebp_x64.z01?attach=1&knm=tfile.z01",
+                "https://blog.kakaocdn.net/dn/wQsJV/btrfc7YqLSz/RkYcqlYKReyrBRvOoltg3K/ebp_x64.z02?attach=1&knm=tfile.z02",
+                "https://blog.kakaocdn.net/dn/bau6hq/btrfbQQcgST/fGK7wIWQdA2YC9vD9GkcS1/ebp_x64.z03?attach=1&knm=tfile.z03",
+                "https://blog.kakaocdn.net/dn/eiw7o8/btrfdZySz9M/5wIoKiIY0iwhkJbC1vfeQK/ebp_x64.z04?attach=1&knm=tfile.z04",
+                "https://blog.kakaocdn.net/dn/2JnOw/btre7JZcBCk/9NUJJDc7PJY3p1ZiZEh9a1/ebp_x64.z05?attach=1&knm=tfile.z05",
+                "https://blog.kakaocdn.net/dn/d8lCFk/btrfgF7Xf16/RANgBHoAumNR2dsIow9tI0/ebp_x64.z06?attach=1&knm=tfile.z06",
+                "https://blog.kakaocdn.net/dn/bcg1jD/btre7tuXEWd/Pwt40K1ykxCfpzBUTV6NS1/ebp_x64.z07?attach=1&knm=tfile.z07",
+                "https://blog.kakaocdn.net/dn/V50sj/btre7s3TmvD/R0daGCKYAE8Xc79eNPdQjk/ebp_x64.z08?attach=1&knm=tfile.z08",
+                "https://blog.kakaocdn.net/dn/dUdMNr/btrfgGFNedP/QKJ08YldnHypWcYjtFNGjK/ebp_x64.z09?attach=1&knm=tfile.z09",
+                "https://blog.kakaocdn.net/dn/ZXlzw/btrfbAGTS0C/oPQFL9KxJxl6oOZoIXWZp0/ebp_x64.z10?attach=1&knm=tfile.z10"
             ],
             "hash": [
-                "4CCFEA78D4089A80B8126253FCD4C0732CF1EEF77B0C4558E801D022DCB1ABCA",
-                "6DD9D3918C27CAD97524B48D96F6A7A3A27BB14B56C72532C92C7A89F7467A70",
-                "0CDB7F24E1F2641D7F51D60725A7BCAF38075DD67C8F9F26485C15C68A92163C",
-                "391EB2C3462ED2918D5C7F5A54BAB82B35B1E8A60C439F2CA25DF2783F5C1D8F",
-                "FE7350C8CC5EF11F336A13736CCAB4DD27DDA3119A834C169F63B33D8156A4DA",
-                "CFAE52871E18097BEA945589BE84C9A54F21DB339D94734BB6E903971339DE6B",
-                "8FB5855E9B7120EAB7B795B4FEA8EE84D48F59D9677EA738702EA640E0D035A9",
-                "75107C08FFA2AAE24F438704E958ED17F84184DCD529665B1511B087B0D449BB"
+                "D6D0CF88283F33C9AEB920DC3B24FD316612153075276192E2E1AD24EE860BD9",
+                "AE22DE217B08D479830BC52D5D04D4B65FF6D85653B326D8FDFE9D7DA3BF378C",
+                "7ACA6FD310EEC246141E7D0631F161BC45A3460DABF4991415AF242EA708B90C",
+                "44EBCD29E03544CC2118723F7D7C0F00A121E8870782E9E4069AC46091062525",
+                "1F491CD2A656A14171F88F47E512263EDE290C7B00E9363C5397BDE5973619B4",
+                "D15DE4821BD0BF510B7D421CB137CA5E41B69D1DE44033B24A0A70CD0CE2761C",
+                "2F0420AACB74F68B20FB101B9F3F9A44618E9DB9F32D94538FA124BFD9964A0A",
+                "D3DAC44F5072146AB3C726CBFFB963E2A8A8AAD8482512351861E7F6DB528700",
+                "86BFEEAC429DC1C1CE95B4A76DBC9C10EA57DDD37C4CBC53FE2B37E953E524C3",
+                "FD4EAD4082F00C6DEDBC8D00D01089D8429C4F5A249E77740FFC70A93248D1EA",
+                "A6A17B81BE5EAC939386572E12E8C5E8387306EB8D15A0EAFF4D91F93C92AD7C"
             ],
             "bin": "ebp_x64.exe",
             "shortcuts": [
@@ -44,24 +50,26 @@
         },
         "32bit": {
             "url": [
-                "https://blog.kakaocdn.net/dn/8OipX/btrevaWpX3x/vGiCRyg6kRsqns1j1aJgi1/ebp_x86.zip?attach=1&knm=tfile.zip",
-                "https://blog.kakaocdn.net/dn/bQd3X3/btreu9Xvv9I/D3qvEmlwfqKXKjZLLQkFWK/ebp_x86.z01?attach=1&knm=tfile.z01",
-                "https://blog.kakaocdn.net/dn/MBLHr/btrevH7vf7S/WgkhRsSI4LnMDlXYZKXoq1/ebp_x86.z02?attach=1&knm=tfile.z02",
-                "https://blog.kakaocdn.net/dn/nIKpz/btrewyPMOEB/XbAgWNWVs72fwW2y4Ow930/ebp_x86.z03?attach=1&knm=tfile.z03",
-                "https://blog.kakaocdn.net/dn/Fjajg/btretb877z9/SkSBIzMblrXJVEDbhRx1Y1/ebp_x86.z04?attach=1&knm=tfile.z04",
-                "https://blog.kakaocdn.net/dn/QBbOG/btrexmavhce/l1mog6JaIBJupR50P6y3WK/ebp_x86.z05?attach=1&knm=tfile.z05",
-                "https://blog.kakaocdn.net/dn/dn7Eev/btrevGAMphr/lON4NlWbiLBsHS0uSHnRQk/ebp_x86.z06?attach=1&knm=tfile.z06",
-                "https://blog.kakaocdn.net/dn/da3Rqp/btrevXPPnIx/wpOKPSlC2bWBUAXGz1jCF1/ebp_x86.z07?attach=1&knm=tfile.z07"
+                "https://blog.kakaocdn.net/dn/sNHSG/btrfbclTzJq/uL0C7ihjAA3wyhYqOnA6lk/ebp_x86.zip?attach=1&knm=tfile.zip",
+                "https://blog.kakaocdn.net/dn/cKFqx6/btrfbrJSdEf/UlqpKItsB8mTNnn0aNhtW0/ebp_x86.z01?attach=1&knm=tfile.z01",
+                "https://blog.kakaocdn.net/dn/dvULXL/btrfbCkwcuZ/jRdqE1KpziUxfQpUbVkUK0/ebp_x86.z02?attach=1&knm=tfile.z02",
+                "https://blog.kakaocdn.net/dn/boR9ny/btre6mW9RsN/T3VdBSsVV96MeKVdSdRMJk/ebp_x86.z03?attach=1&knm=tfile.z03",
+                "https://blog.kakaocdn.net/dn/bGm3es/btrfdYNtHtS/etLNh2JVrMHVbKJvBVKA1K/ebp_x86.z04?attach=1&knm=tfile.z04",
+                "https://blog.kakaocdn.net/dn/6eNWW/btrfbrJSgEO/K16vDh8knj6YhrYLqssuo0/ebp_x86.z05?attach=1&knm=tfile.z05",
+                "https://blog.kakaocdn.net/dn/RqfJA/btrffOYgv5Q/QqjBlosLcZ2hop5JipKhI0/ebp_x86.z06?attach=1&knm=tfile.z06",
+                "https://blog.kakaocdn.net/dn/rmuw0/btre7utO7D7/sCRkXmEmnUur5DhjOHQJh1/ebp_x86.z07?attach=1&knm=tfile.z07",
+                "https://blog.kakaocdn.net/dn/4QT1r/btrfa2xdtQw/6HkCJKpXgLX62dG7dgWP20/ebp_x86.z08?attach=1&knm=tfile.z08"
             ],
             "hash": [
-                "7E0CFAE053C5DA61B1AC142E4E05FCE1F98B5D76F15AEB6DBDC0DCBAC79C57EB",
-                "87A9D19A639390920AEE11E27F74F913BF811AE2F79D18393D0E2623A7203E13",
-                "CEE4FF95F405C0A142F7C737B7F17DC37AAD7FD1E2992EEE31EAFD479E10F4F4",
-                "ED415B83824122A879355691310D6C4F4EF73BE2E85F7EE80C9B7D7B74B2083A",
-                "8E08685254C9BF348CE03BC7B8FA3DB006D667B87854BFFE54D313CD707F8399",
-                "184D38E39F318966A4000637251BD7E9D801577583DDEBB07EF9E29D3BC52435",
-                "5EF5C5AE0888C8DDD1BC662062C9B2BC1EAF231FEFBBBB6E0067B413DE686D74",
-                "77B0DFF4AD944FF738B24E83E6DA87649B2226290FEE1F29D3ABD8D4D5B0062E"
+                "B5F0588CBF7304311ACA2F50AE4D69C6C973B571EF2AAE0E164562D27A175F21",
+                "0F873FBE16DB64DCDE817387F3B18CE41E797CA976D41139F49361D99B9FD5A3",
+                "84C0931D7FFDEE2B2D4152E1646D0821576FBFC4AADE110AA712995CDB49D0E3",
+                "588F39455A5B68CEF1BF1B8BBA3334FDF0ABF4B9A074875B047821DFE1903A87",
+                "69E99E970BCA34D1716847B9B389AE0E09166D6283CB09A187244E309169C1B8",
+                "1560D59477DA77E6818061375683AA3E7D08306DF34B3E0AA069DC0366AD4C2D",
+                "50DFBB523D2895B1D0C40C25B193F1054E0620B22391B507ADFC58830BB6C27C",
+                "BAFF78AAF673C4017DCC084534636DD6BA2B7213824DA48B5F569597561B0B39",
+                "E629CBF01170E3431D1FC7CD046D2A8B79E7FDAA36BA257435842EE2F617B4E0"
             ],
             "bin": "ebp_x86.exe",
             "shortcuts": [
