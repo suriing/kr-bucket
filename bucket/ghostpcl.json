@@ -1,5 +1,5 @@
 {
-    "version": "9.54.0",
+    "version": "9.55.0",
     "description": "PCL5/PCL XL (PXL) interpreter/renderer",
     "homepage": "https://www.ghostscript.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9540/ghostpcl-9.54.0-win64.zip",
-            "hash": "sha512:A1B2C763874A0A26B1E206A045EE85CF4912645F15E24D23CC09BE90EB8EBC44FC4F8BF842EC8528ADC3A19FD2B7E786376C5717655338BE37DD93BC9C886ABA",
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9550/ghostpcl-9.55.0-win64.zip",
+            "hash": "sha512:d1ac8b3a81b9209bb7e8480adc00c9f104287ccb504116e4c9ce668f7608b09a0b7e681950041e47dbbd59adb127d5c3cd93d944bacd77cc48f6f00afa68f4b3",
             "bin": [
                 "ghostpcl-9.54.0-win64/gpcl6win64.exe",
                 [
@@ -19,8 +19,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9540/ghostpcl-9.54.0-win32.zip",
-            "hash": "sha512:47DBE09C769FD7B0C71AAA48293B96BDDF326C29B28457101CFD27E8350796E403DA8E8FE287F09E3C5168A8D98244E30C6136683CC37B366BA3473E9C7D11AC",
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9550/ghostpcl-9.55.0-win32.zip",
+            "hash": "sha512:b4f57c0dba83f1e59cbdb9906f91b55a20bdf917bd41eeb8bb831b7f38a2313b15293db5cadca6302f260c2df2265d10340d9ca352d1de5f21a6c1575d3eb538",
             "bin": [
                 "ghostpcl-9.54.0-win32/gpcl6win64win32.exe",
                 [
