@@ -1,5 +1,5 @@
 {
-    "version": "2.78",
+    "version": "2.79",
     "description": "Virtual printer for everybody",
     "homepage": "https://modu-print.tistory.com",
     "license": {
@@ -15,30 +15,30 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://blog.kakaocdn.net/dn/eqzXtI/btrgMudlsIY/x35DAOyfIJObEWfDepPJD0/ebp_x64.zip?attach=1&knm=tfile.zip",
-                "https://blog.kakaocdn.net/dn/7u1Ib/btrgOt6kdmP/NKLJxLaPXrzfKeCiZfCsC1/ebp_x64.z01?attach=1&knm=tfile.z01",
-                "https://blog.kakaocdn.net/dn/QwtbN/btrgJYeILTR/WVIU8Y0X1l6k3M8MDeFZtk/ebp_x64.z02?attach=1&knm=tfile.z02",
-                "https://blog.kakaocdn.net/dn/c2BNGb/btrgMs0Wj7d/1ff9xXWRWDA2i8AK9yjk50/ebp_x64.z03?attach=1&knm=tfile.z03",
-                "https://blog.kakaocdn.net/dn/bscY8N/btrgBCqv8Dr/mnvHyFfjnEqakKxrDeFrAk/ebp_x64.z04?attach=1&knm=tfile.z04",
-                "https://blog.kakaocdn.net/dn/csfGuh/btrgP3l2jdR/5fos4uKkkq4Pz2CyKMikwK/ebp_x64.z05?attach=1&knm=tfile.z05",
-                "https://blog.kakaocdn.net/dn/cNoNap/btrgMtS2bs3/ihiKbsdCg4PskbTtAjWSYk/ebp_x64.z06?attach=1&knm=tfile.z06",
-                "https://blog.kakaocdn.net/dn/odMZu/btrgD31KNs6/jlLQlAEDeSopHJRZ6LriQK/ebp_x64.z07?attach=1&knm=tfile.z07",
-                "https://blog.kakaocdn.net/dn/pNVUN/btrgC7cF77p/P0oIK3TS35JKtTKTxlAQnk/ebp_x64.z08?attach=1&knm=tfile.z08",
-                "https://blog.kakaocdn.net/dn/dO5rjA/btrgC7w1HHO/3gSY6Scag7n7kwvKo42rJK/ebp_x64.z09?attach=1&knm=tfile.z09",
-                "https://blog.kakaocdn.net/dn/bjV5WV/btrgCFtYREp/tsWPdtF0bbQUxV8t2hhIG1/ebp_x64.z10?attach=1&knm=tfile.z10"
+                "https://blog.kakaocdn.net/dn/d5LCVp/btrirw9mdGo/ikgy98AHZyS9ed1LvfpZ60/ebp_x64.z01?attach=1&knm=tfile.z01",
+                "https://blog.kakaocdn.net/dn/s0WOj/btrio1WARLW/KaNtkZztk3QiRhhSEMQJD0/ebp_x64.z02?attach=1&knm=tfile.z02",
+                "https://blog.kakaocdn.net/dn/bU19kR/btrioGdzATH/YO2mJzhVQrDxaAulwSlfU0/ebp_x64.z03?attach=1&knm=tfile.z03",
+                "https://blog.kakaocdn.net/dn/1aa22/btrin0pNMo4/t3k53R5VCIZmPKyDh7IvH0/ebp_x64.z04?attach=1&knm=tfile.z04",
+                "https://blog.kakaocdn.net/dn/zWsHN/btritLLUTu1/47Jh2A1w7okJLKBkvPv45k/ebp_x64.z05?attach=1&knm=tfile.z05",
+                "https://blog.kakaocdn.net/dn/V55Tg/btriq6XrnW4/ST0UKiCIUk3YgoPuXtc1C0/ebp_x64.z06?attach=1&knm=tfile.z06",
+                "https://blog.kakaocdn.net/dn/cuQSVO/btrivPs37Eh/MzitcYJQ9b6NSmFa6RCRdk/ebp_x64.z07?attach=1&knm=tfile.z07",
+                "https://blog.kakaocdn.net/dn/brDvo4/btrin0i0H8w/KrRDdOcx1fPa4QEQkTkeWK/ebp_x64.z08?attach=1&knm=tfile.z08",
+                "https://blog.kakaocdn.net/dn/bBzcoY/btrit3yReuO/Y819eN4h0KpJaXwGpw7ZiK/ebp_x64.z09?attach=1&knm=tfile.z09",
+                "https://blog.kakaocdn.net/dn/bVqaDN/btriug5KeoT/D5ksLkk2ngTlOtbJfnUCHK/ebp_x64.z10?attach=1&knm=tfile.z10",
+                "https://blog.kakaocdn.net/dn/bDR4He/btritLrD5oQ/Vm00s1Y8t6VIPSSMEHkmLk/ebp_x64.zip?attach=1&knm=tfile.zip"
             ],
             "hash": [
-                "B734BE35D10272E643E237E21E48EC83CCE5A0942A27EC577B887D8A51D54A6E",
-                "93632A48B16F1A1F358B491310FF8AEDC3F8D71C1722805F70DA895CAF8052C9",
-                "345CC0BF2CC01E861CAC8EA5FA03CA157D6E1E92EB633D1D6287E36EEA9B8A91",
-                "D36E2E7F0366A8555F19DDAEC4CBF562B65E5E36049968C252401F02A6229BA3",
-                "BFC085B69F6364B2A182E2FA6BBAA1F39D6CB4BCB15C5AE0B084699BD33C1A0C",
-                "DD4649339440ED3642FFF5272E8A1710FCB2F3020EBF372BE1414ABEE1E1F29E",
-                "BB3749D5C16390A37C6B584FA5DBE1F9A9636405705CF1298553AC11A8E90B34",
-                "3CC02748C5895B162CFE6FE7057A84C16B4CE4EEB20BDED8430C2FE2622C73B9",
-                "373F5DE0A61F37BF26DF998CF06A471DD17C3C3C8D486A6A8020912CC6B33219",
-                "14CDE2BDCA58CC98398C7F95CA2A4C39961C7F58A725E6D1A0B24F4C7CF84D3D",
-                "028090CC225B65181092E0D5F44463FB7EAA1BF5308E94271F9C0770D4DFC247"
+                "AA7F7AE1BAA122E5EAC4E82D06B69E1E82544D4385513F062704B434B971D171",
+                "988B5946B3F541C30C96941F7560BF0EC0D878EE33F21C5604717AADC11BE619",
+                "0F3466C4BFA072EA1E4E8716065B4FDEAAF4EAB8F69EFAB871B439972685167E",
+                "CCEF98C6BE7051B81844F2B5A25E88874D5F6D656F7EED039779E6E8C2F731CD",
+                "ACC2E6127755B3AF2BC6F7D9067D3FA126F9854309845EF0DB3C605A8594D0D2",
+                "54C22F1E52FFC13B32EBAF82CD133DA4F4A21B0B40549B1DE2BED358CD8414F7",
+                "9DF3E3A55BEEC8A2CF55E19A4B6F3AE10E5355B3F7920150CE6009D19144443C",
+                "2CED905B7A1DFF8FCE6E5A2711194F9ED67644F200833456E0E5082303EBF74E",
+                "6AB98913EF87C59A696E0CEDAAF4EF3D003A23DBF52474EDAC404044E463BEAD",
+                "F159FC2A31898860F412A8BAB61ED2900EF572C6D7BDC50517E6AFD6A717448F",
+                "39822763B24E0744C7265CD0279B8B10E62E1AA0550C5E3F41E2BC740F922A2B"
             ],
             "bin": "ebp_x64.exe",
             "shortcuts": [
@@ -50,26 +50,26 @@
         },
         "32bit": {
             "url": [
-                "https://blog.kakaocdn.net/dn/A6IaS/btrgB6rOsPU/NmwBKQFIeHxKmtJvXFEB8K/ebp_x86.zip?attach=1&knm=tfile.zip",
-                "https://blog.kakaocdn.net/dn/Vvhsc/btrgDcxQtXS/h1KPRkG2y9jfW2ilGCn3f1/ebp_x86.z01?attach=1&knm=tfile.z01",
-                "https://blog.kakaocdn.net/dn/ejkmBD/btrgOsTRWAB/CYRzn50LLn7jZSsg3IoWBk/ebp_x86.z02?attach=1&knm=tfile.z02",
-                "https://blog.kakaocdn.net/dn/1pqsV/btrgJX1aIKt/ivU6Zwsjtx0kWeqyxxprBK/ebp_x86.z03?attach=1&knm=tfile.z03",
-                "https://blog.kakaocdn.net/dn/CFwOa/btrgJX1aLpE/1c86M5XvamiZGzDvwRb3l0/ebp_x86.z04?attach=1&knm=tfile.z04",
-                "https://blog.kakaocdn.net/dn/MZuFs/btrgB39eP52/uVthLIzdbRVPiz0hZGzD01/ebp_x86.z05?attach=1&knm=tfile.z05",
-                "https://blog.kakaocdn.net/dn/pB306/btrgC6LA6cg/KyVvheEfdblXStS9goRujK/ebp_x86.z06?attach=1&knm=tfile.z06",
-                "https://blog.kakaocdn.net/dn/Q8HQf/btrgMzMhV53/nNzy3lTokgIqIhyVaMPQzk/ebp_x86.z07?attach=1&knm=tfile.z07",
-                "https://blog.kakaocdn.net/dn/JEQX3/btrgB39eSLd/JnKwT1rOqEgZu4FodokHV1/ebp_x86.z08?attach=1&knm=tfile.z08"
+                "https://blog.kakaocdn.net/dn/xHZMW/btritKGhse7/Krt4K5qmey3PGGqCzOKD5k/ebp_x86.z01?attach=1&knm=tfile.z01",
+                "https://blog.kakaocdn.net/dn/coovrG/btripxm6quo/pV8athH7dXFS8z8EQeBej1/ebp_x86.z02?attach=1&knm=tfile.z02",
+                "https://blog.kakaocdn.net/dn/dOew8W/btrin1hWa7j/1xUX3QEJ6Tpz35mefCfcuk/ebp_x86.z03?attach=1&knm=tfile.z03",
+                "https://blog.kakaocdn.net/dn/LMijf/btripwaF7sS/yG807AYkA8MYB36k4UGBo0/ebp_x86.z04?attach=1&knm=tfile.z04",
+                "https://blog.kakaocdn.net/dn/WpugJ/btrivQyLaJ3/QTMAH0mBrkk0zfVmQbcib1/ebp_x86.z05?attach=1&knm=tfile.z05",
+                "https://blog.kakaocdn.net/dn/SnYTW/btriuZvUGAF/eWxiBRnsF90GrLSQSiIMdK/ebp_x86.z06?attach=1&knm=tfile.z06",
+                "https://blog.kakaocdn.net/dn/ozmoA/btriwI8iJe2/nfj80DnBfN4F8zyUVnTYZk/ebp_x86.z07?attach=1&knm=tfile.z07",
+                "https://blog.kakaocdn.net/dn/b26c0m/btritZQGfXf/q10azkhdG5oVKvD4rn8V3K/ebp_x86.z08?attach=1&knm=tfile.z08",
+                "https://blog.kakaocdn.net/dn/PGdE8/btrivOVeVVE/6KBJvAQC4uz0RB01QcEDA0/ebp_x86.zip?attach=1&knm=tfile.zip"
             ],
             "hash": [
-                "9D61D7C6D96236777F25C1FF45D9D84DB62C1D1E16989899EEE04B092F9031D6",
-                "3E9469D3DE7709DE18E345F7DDFFD93CA7033AF6FE667AEA7A1BB1B0E2047EBB",
-                "8530BC248BF438BE7706E1DA323BE772742B5954A063B86EBDB3FDF4F22B42D6",
-                "F1B8C8CC935F2C99E26AB5A6974E7000A354D69EE2C69794E6E19B5E090580A1",
-                "C514C4C8B758F3561EF9E313194B4BAF4AF8A14F4DEA7C17A55E34EE34D84F40",
-                "4022A38716D9AA47BD621565E03681012B34724D17E3B5ECF60DD784F46487BC",
-                "2D359DC928F32CE4B686EAE6D81A327AEC4C7F3CD5E18CECD702FF9293821688",
-                "810C25008DE2942E8802AF3189D01394CF84839323F5B9CA98991012B686D13C",
-                "506AC89D0A46059201B4F3813333AA10B430051ED5D24E6D78297E02097A26FC"
+                "5778BDE2C75E5366E6428BE66413888B550CF64761E17AAEFCAAB9FAAC44234A",
+                "53E7F8DC0855D7BD56D95D5111D117211EAD40CEEEC0DC3C07AA0752171AEE4E",
+                "6CE99C64592D9900E89AF39B8C9F39C33FDA57A7BAB5A98D27545E18EDF31741",
+                "EBC0A6E8561B7F59527E1CDE40EA1C9E459C84C7EBE92452339E8A5BA9D2A53B",
+                "2C94E11AA47FE7B6847A3F0714F3AEE069BCB92D1AE6966CABB32AC632516D09",
+                "BCED9FC0082421D19822A2E25998E4480E212DE512B0E923BE262ADF6DB67875",
+                "61D33DCB53B698B5755677391ECC1837534218A83AE7BA26759F46A491379DD5",
+                "385EF88EDBD09D140DD8A044F71E7281A377465E2E4E1A2F08B741147DCBA9C6",
+                "0017D74D35D94E4E246D4E6BAC651994EBF0D01C9214372E099B9ED3C4A27E0B"
             ],
             "bin": "ebp_x86.exe",
             "shortcuts": [
@@ -81,7 +81,7 @@
         }
     },
     "post_install": [
-        "Remove-Item \"$dir\\*.z0*\""
+        "Remove-Item \"$dir\\*.z*\""
     ],
     "checkver": {
         "url": "https://modu-print.tistory.com/category/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C/%EB%AA%A8%EB%91%90%EC%9D%98%20%ED%94%84%EB%A6%B0%ED%84%B0",
