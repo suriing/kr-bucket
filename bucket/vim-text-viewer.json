@@ -1,0 +1,46 @@
+{
+    "version": "1.0.0-8.2.3592",
+    "description": "Vim 에 고정폭 외의 가변폭 한글 폰트 깔끔한 전체화면 아름다운 색상테마와 투명화 글을 작성할 수 있는 편집모드와 독서전용 모드인 뷰어모드를 지원하는 한국어 사용자를 위한 Vim 입니다.",
+    "homepage": "https://github.com/xvim64/vim-text-viewer",
+    "license": {
+        "identifier": "GPL-2",
+        "url": "https://github.com/xvim64/vim-text-viewer/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/xvim64/vim-text-viewer/releases/download/1.0.0/vim-text-viewer-1.0.0-vim-8.2.3592_x64.zip",
+            "hash": "F13931475A025562875C2982D9961AC03C7DCD40FE87C57FEE20C744CADB1CA7"
+        },
+        "32bit": {
+            "url": "https://github.com/xvim64/vim-text-viewer/releases/download/1.0.0/vim-text-viewer-1.0.0-vim-8.2.3592_x86.zip",
+            "hash": "304221D1DBB4584FCD8DFAE8BB39AD285F5EC17B3DF146B3B1E79FD3A3A0E14F"
+        }
+    },
+    "bin": "VimView/VimView.exe",
+    "shortcuts": [
+        [
+            "VimView/VimView.exe",
+            "VimView"
+        ]
+    ],
+    "persist": "VimView\\config\\_vimrc.txt",
+    "checkver": {
+        "github": "https://github.com/xvim64/vim-text-viewer",
+        "regex": "/(?<VimTextVersion>[\\d.]+)/vim-text-viewer-[\\d.]+-vim-(?<VimVersion>[\\d.]+)_x(64|86)\\.zip",
+        "replace": "${VimTextVersion}-${VimVersion}",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/${VimTextVersion}/vim-text-viewer-${VimTextVersion}-vim-${VimVersion}_x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/${VimTextVersion}/vim-text-viewer-${VimTextVersion}-vim-${VimVersion}_x86.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
