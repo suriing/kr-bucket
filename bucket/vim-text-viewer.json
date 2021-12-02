@@ -26,17 +26,17 @@
     "persist": "VimView\\config\\_vimrc.txt",
     "checkver": {
         "github": "https://github.com/xvim64/vim-text-viewer",
-        "regex": "/(?<VimTextVersion>[\\d.]+)/vim-text-viewer-[\\d.]+-vim-(?<VimVersion>[\\d.]+)_x(64|86)\\.zip",
+        "regex": "/(?<VimTextVersion>[\\d.]+)/vim-text-viewer-[\\d.]+-gvim-(?<VimVersion>[\\d.]+)-x(64|86)\\.zip",
         "replace": "${VimTextVersion}-${VimVersion}",
         "reverse": true
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/${VimTextVersion}/vim-text-viewer-${VimTextVersion}-vim-${VimVersion}_x64.zip"
+                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/$VimTextVersion/vim-text-viewer-$VimTextVersion-gvim-$VimVersion-x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/${VimTextVersion}/vim-text-viewer-${VimTextVersion}-vim-${VimVersion}_x86.zip"
+                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/$VimTextVersion/vim-text-viewer-$VimTextVersion-gvim-$VimVersion-x86.zip"
             }
         },
         "hash": {
