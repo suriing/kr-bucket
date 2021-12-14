@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0-8.2.3592",
+    "version": "1.0.11-8.2.3724",
     "description": "Vim 에 고정폭 외의 가변폭 한글 폰트 깔끔한 전체화면 아름다운 색상테마와 투명화 글을 작성할 수 있는 편집모드와 독서전용 모드인 뷰어모드를 지원하는 한국어 사용자를 위한 Vim 입니다.",
     "homepage": "https://github.com/xvim64/vim-text-viewer",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xvim64/vim-text-viewer/releases/download/1.0.0/vim-text-viewer-1.0.0-vim-8.2.3592_x64.zip",
-            "hash": "F13931475A025562875C2982D9961AC03C7DCD40FE87C57FEE20C744CADB1CA7"
+            "url": "https://github.com/xvim64/vim-text-viewer/releases/download/1.0.11/vimview-1.0.11-gvim-8.2.3724-x64.zip",
+            "hash": "44CA88C71AAE81578449150ED985B2D0B256794C471972FA75E362C98A422CE8"
         },
         "32bit": {
-            "url": "https://github.com/xvim64/vim-text-viewer/releases/download/1.0.0/vim-text-viewer-1.0.0-vim-8.2.3592_x86.zip",
-            "hash": "304221D1DBB4584FCD8DFAE8BB39AD285F5EC17B3DF146B3B1E79FD3A3A0E14F"
+            "url": "https://github.com/xvim64/vim-text-viewer/releases/download/1.0.11/vimview-1.0.11-gvim-8.2.3724-x86.zip",
+            "hash": "529DA455F1A04601D683E6737182256F915B8938F0B0D43B9807EB864B268F58"
         }
     },
     "bin": "VimView/VimView.exe",
@@ -26,21 +26,19 @@
     "persist": "VimView\\config\\_vimrc.txt",
     "checkver": {
         "github": "https://github.com/xvim64/vim-text-viewer",
-        "regex": "/(?<VimTextVersion>[\\d.]+)/vim-text-viewer-[\\d.]+-gvim-(?<VimVersion>[\\d.]+)-x(64|86)\\.zip",
+        "regex": "/(?<VimTextVersion>[\\d.]+)/vimview-[\\d.]+-gvim-(?<VimVersion>[\\d.]+)-x(64|86)\\.zip",
         "replace": "${VimTextVersion}-${VimVersion}",
         "reverse": true
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/$VimTextVersion/vim-text-viewer-$VimTextVersion-gvim-$VimVersion-x64.zip"
+                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/$matchVimTextVersion/vimview-$matchVimTextVersion-gvim-$matchVimVersion-x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/$VimTextVersion/vim-text-viewer-$VimTextVersion-gvim-$VimVersion-x86.zip"
+                "url": "https://github.com/xvim64/vim-text-viewer/releases/download/$matchVimTextVersion/vimview-$matchVimTextVersion-gvim-$matchVimVersion-x86.zip"
             }
         },
-        "hash": {
-            "url": "$url.sha256"
-        }
+        "hash": "$url.sha256"
     }
 }
