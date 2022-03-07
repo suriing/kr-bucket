@@ -1,0 +1,41 @@
+{
+    "version": "1.1.2",
+    "description": "A desktop app for Join built in Electron",
+    "homepage": "https://joaoapps.com/join/desktop/",
+    "license": {
+        "identifier": "Open Source"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/joaomgcd/JoinDesktop/releases/download/v1.1.2/Join.Desktop.Setup.1.1.2.exe#/dl.7z",
+            "hash": "42FB0FEF7BC5B8C12D8547FE53EB8003A08A04D1625CB035E6D0E50875574739",
+            "installer": {
+                "script": [
+                "7z x \"$dir\\dl.7z\" -o\"$dir\\temp\"",
+                "Remove-Item \"$dir\\background.gif\", \"$dir\\Update.exe\", \"$dir\\RELEASES\" -Force",
+                "Rename-Item \"$dir\\com.joaomgcd.join-1.1.2-full.nupkg\" \"$dir\\setup.zip\"",
+                "7z x \"$dir\\setup.zip\" -o\"$dir\\temp\"",
+                "Move-Item \"$dir\\temp\\lib\\net45\\*\" -Destination \"$dir\" -Force",
+                "Remove-Item \"$dir\\setup.zip\" -Force",
+                "Remove-Item \"$dir\\temp\" -Force -Recurse"
+            ]
+        }
+    }
+},
+    "bin": "Join Desktop.exe",
+    "shortcuts": [
+        [
+            "Join Desktop.exe",
+            "Join Desktop"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/joaomgcd/JoinDesktop"
+    },
+    "autoupdate": {
+        "url": "https://github.com/joaomgcd/JoinDesktop/releases/download/v$version/Join.Desktop.Setup.$version.exe",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
