@@ -1,0 +1,18 @@
+{
+    "version": "1.8.6",
+    "description": "Smart browser selector for Windows",
+    "homepage": "https://github.com/mortenn/BrowserPicker",
+    "license": "MIT",
+    "url": "https://github.com/mortenn/BrowserPicker/releases/download/v1.8.6/portable.zip",
+    "hash": "97FFEC6B3D58A55A2B0825F37F784633FDDDFBCB35CC3FA633797D419F933A07",
+    "bin": "BrowserPicker.exe",
+    "shortcuts": [
+        [
+            "BrowserPicker.exe",
+            "BrowserPicker"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/mortenn/BrowserPicker/releases/tag/v$version/portable.zip"
+    }
+}
