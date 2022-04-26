@@ -1,0 +1,17 @@
+{
+    "version": "1.0.1.12",
+    "description": "A tape-like calculator with straightforward interface and a lot of features",
+    "homepage": "http://www.be-precision.com/qaltex/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "url": "http://www.be-precision.com/download/download_file.php?filename=dev/Qaltex.zip#/cosi.zip",
+    "hash": "a415031d0b3d2b27e512cdc185d384340e599fe4418d5577f7b06da012125427",
+    "bin": "Qaltex.exe",
+    "shortcuts": [
+        [
+            "Qaltex.exe",
+            "Qaltex_β"
+        ]
+    ]
+}
