@@ -8,10 +8,10 @@
     },
     "url": "https://smath.com/file/Aw5ZM/SMathStudioDesktop.1_0_8151.Setup.msi",
     "hash": "AC3D1F93F42204FF4A2364B62928A0010AFBA1179476F2CBBEF75EF75FB2A356",
-    "bin": "SMathStudio_Desktop.exe",
+    "bin": "APPDIR/SMathStudio_Desktop.exe",
     "shortcuts": [
         [
-            "SMathStudio_Desktop.exe",
+            "APPDIR/SMathStudio_Desktop.exe",
             "SMathStudio"
         ]
     ],
