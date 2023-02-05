@@ -6,7 +6,7 @@
         "identifier": "GPL-3.0",
         "url": "https://github.com/manisandro/gImageReader/blob/master/COPYING"
     },
-    "url": "https://github.com/manisandro/gImageReader/releases/download/v3.4.1/gImageReader_3.4.1_qt5_x86_64.exe",
+    "url": "https://github.com/manisandro/gImageReader/releases/download/v3.4.1/gImageReader_3.4.1_qt5_x86_64.exe#/cosi.7z",
     "hash": "017b5f63664ac0636f60a8a1140b9ff2cd351dc2ad1c160eb0d91e1d1555e2b9",
     "bin": "bin\\gimagereader-qt5.exe",
     "shortcuts": [
