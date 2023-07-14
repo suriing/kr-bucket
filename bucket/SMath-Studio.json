@@ -17,6 +17,6 @@
     ],
     "checkver": {
         "url": "https://en.smath.com/view/SMathStudio/summary",
-        "regex": "Version <strong itemprop=\"softwareVersion\">([\\d.]+)</strong> - Stable"
+        "regex": "Version <strong itemprop=\"softwareVersion\">([\\d.]+)</strong>"
     }
 }
