@@ -1,13 +1,13 @@
 {
-    "version": "0.8.0",
-    "description": "another unit converter make sense to anyone else",
-    "homepage": "http://convertall.bellz.org",
+    "version": "1.0.1",
+    "description": "A flexible unit conversion tool",
+    "homepage": "https://github.com/doug-101/ConvertAll",
     "license": {
         "identifier": "GPL-2",
-        "url": "https://github.com/doug-101/ConvertAll/blob/master/doc/LICENSE"
+        "url": "https://github.com/doug-101/ConvertAll/blob/master/LICENSE"
     },
-    "url": "https://github.com/doug-101/ConvertAll/releases/download/v0.8.0/convertall-0.8.0-install-user.exe",
-    "hash": "F80C637C3C6FEA9031B860825EC1A2B65EDDE5DCB74569F099E6BC63F0F95A1B",
+    "url": "https://github.com/doug-101/ConvertAll/releases/download/v1.0.1/convertall_1.0.1.zip",
+    "hash": "F80677886AC317B11CE242478018413458C6CB9F50854AAF6F9A28FE0C7E0219",
     "innosetup": true,
     "bin": "convertall.exe",
     "shortcuts": [
@@ -20,7 +20,7 @@
         "github": "https://github.com/doug-101/ConvertAll"
     },
     "autoupdate": {
-        "url": "https://github.com/doug-101/ConvertAll/releases/download/v$version/convertall-$version-install-user.exe",
+        "url": "https://github.com/doug-101/ConvertAll/releases/download/v$version/convertall_$version.zip",
         "hash": {
             "url": "$url.sha256"
         }
