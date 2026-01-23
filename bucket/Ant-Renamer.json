@@ -6,8 +6,8 @@
         "identifier": "GPL",
         "url": "http://www.gnu.org/licenses/gpl.txt"
     },
-    "url": "http://www.antp.be/software/renamer/download/antrenamer2.13.0.zip",
-    "hash": "78ed29de384f44e2fe483f1068bcdfc7e83018318674a82d16d7c8de6fa79c16",
+    "url": "http://www.antp.be/software/renamer/download/antrenamer2.zip",
+    "hash": "BB2717B5D30142A4CA58CD2724131CE405B1D683B9F0E0C59935724DB82014E7",
     "bin": "Renamer.exe",
     "shortcuts": [
         [
@@ -20,6 +20,6 @@
         "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://www.antp.be/software/renamer/download/antrenamer$version.zip"
+        "url": "http://www.antp.be/software/renamer/download/antrenamer2.zip"
     }
 }
