@@ -8,6 +8,7 @@
     },
     "url": "https://github.com/manisandro/gImageReader/releases/download/v3.4.3/gImageReader_3.4.3_qt6_x86_64_portable.zip",
     "hash": "c02f053bd08488edb202ecf07d9ac24f319ac468bb3f9cd11853e87b3e485b3f",
+    "extract_dir": "gImageReader_$version_qt6",
     "bin": "bin\\gimagereader-qt6.exe",
     "shortcuts": [
         [
@@ -18,6 +19,7 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/manisandro/gImageReader/releases/download/v$version/gImageReader_$version_qt6_x86_64_portable.zip",
+        "extract_dir": "gImageReader_$version_qt6",
         "hash": {
             "url": "$url.sha256"
         }
